@@ -6,11 +6,7 @@ from flask import Flask, request
 from replit import db
 from requests.auth import HTTPBasicAuth
 
-# def create_counter(initial_value):
-#   def increment():
-#       nonlocal initial_value
-#       initial_value += 1
-#       return initial_value
+# global state instead of db
 yearIncrement = 0
 
 def getYearOffset():

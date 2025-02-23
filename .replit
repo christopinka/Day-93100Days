@@ -10,3 +10,7 @@ language = "python3"
 
 [gitHubImport]
 requiredFiles = [".replit", "replit.nix"]
+
+[[ports]]
+localPort = 81
+externalPort = 80
